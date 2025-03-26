@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #575eb3;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: hsl(350, 9%, 86%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Advanced HTML5 Elements and Forms</h1>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List of vehicles</h2>
+    <ol type="I">
+        <li>Toyota</li>
+        <li>Nissan</li>
+        <li>Suzuki</li>
+    </ol>
+    
+    <!-- External Image -->
+    <h2>Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/9815471/pexels-photo-9815471.jpeg?auto=compress&cs=tinysrgb&w=600" alt="VEHICLE" width="600">
+    
+    <!-- Contact Table -->
+    <h2>Contacts Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Makau</td>
+                <td>47 Machakos</td>
+                <td>+254110827496</td>
+                <td>johnmakau78@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Rose Wambui </td>
+                <td>456 nairobi</td>
+                <td>+254702457857</td>
+                <td>wambuiros234@gmail.com</td>
+            </tr>
+            <tr>
+                <td>peter Wafula</td>
+                <td>7867 Nakuru</td>
+                <td>+25457189398</td>
+                <td>pwafula65@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Alice Mutua</td>
+                <td>67 kitui</td>
+                <td>+254785432501</td>
+                <td>alicemutua@gmail.com</td>
+            </tr>
+            <tr>
+                <td>mohammed Abdikarim</td>
+                <td>654 Garissa</td>
+                <td>+254108776655</td>
+                <td>mohammedabdi675gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="gender" value="female"> Female
+        <input type="radio" id="other" name="gender" value="other"> Other
+        <br><br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Ethiopia">Ethiopia</option>
+        </select>
+        <br><br>
+        
+        <label>Interests:</label>
+        <input type="checkbox" name="interests" value="sports"> Sports
+        <input type="checkbox" name="interests" value="singing"> singing
+        <input type="checkbox" name="interests" value="dancing"> dancing
+        <br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+    
+    <!-- Multimedia Elements -->
+    <h2>Multimedia Elements</h2>
+    
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="c:\Users\simon\Videos\SnapTube\Willy Paul x Bahati - Keki - ( Official Music Video ).mp3" type="audio/mp3">
+        
+    </audio>
+    
+    <h3>Video</h3>
+    <video controls width="600">
+        <source src="C:\Users\simon\Downloads\Video\Brayban - Ana Wivu (Official Music Video).mp4" type="video/mp4">
+        
+    </video>
+    
+ </body>
+ </html>
